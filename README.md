@@ -11,7 +11,3 @@ We have used a sample dataset of 50 patients for training and validation.
 - **Sample Dataset Images:** [Click Here](https://qnm8.sharepoint.com/:f:/g/Ep5GUq573mVHnE3PJavB738Bevue4plkiXyNkYfxHI-a-A?e=UVMWne)  
 - **Sample Dataset CSV:** [Download CSV](https://github.com/Priyansh42/Lung-Cancer-Detection/blob/main/stage1_labels.csv)  
 
-## Similar Projects  
-
-```plaintext
-Stroke Blood Clot Classification: https://github.com/Priyansh42/Stroke-Blood-Clot-Classification
