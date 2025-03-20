@@ -26,10 +26,5 @@ The model is trained on a dataset of lung tissue histology images, encompassing 
 
 The model demonstrates high accuracy in distinguishing between cancerous and non-cancerous lung tissue, highlighting its potential as a reliable diagnostic tool.
 
-## Future Enhancements
-
-- **Expand Dataset**: Incorporate more diverse images to improve generalization.
-- **Integrate Additional Models**: Explore other architectures to enhance performance.
-- **Develop Comprehensive Interface**: Create a user-friendly platform for seamless integration into clinical settings.
 *Early detection saves lives. Harnessing the power of AI, we aim to revolutionize lung cancer diagnosis.*
 
