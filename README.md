@@ -1,30 +1,40 @@
 # 🫁 Lung Cancer Detection
 
  **Empowering Early Detection with Deep Learning**
+This project focuses on predicting lung cancer risk using structured patient data.
+It applies machine learning and deep learning techniques to analyze medical and lifestyle factors.
+The system is designed to support early screening by identifying high-risk individuals.
+Ensemble models and neural networks are used to improve prediction accuracy and stability.
 
-## Overview
+# Features
 
-This project leverages Convolutional Neural Networks (CNNs) to detect lung cancer from medical images. By analyzing histopathological lung tissue images, the model aims to assist in early diagnosis, potentially improving patient outcomes.
+Predicts lung cancer presence using tabular data
 
-## Features
+Handles class imbalance using SMOTE
 
-- **High Accuracy**: Utilizes advanced CNN architectures for precise classification.
-- **Early Diagnosis**: Facilitates timely detection, crucial for effective treatment.
-- **User-Friendly Interface**: Simplifies interaction for medical professionals.
+Performs feature selection to remove irrelevant attributes
 
-## Dataset
+Uses ensemble learning for robust predictions
 
-The model is trained on a dataset of lung tissue histology images, encompassing both normal and cancerous samples. This diverse dataset enables the model to learn and distinguish between benign and malignant tissues effectively.
+Compares machine learning and deep learning performance
 
-## Methodology
+# Dataset
 
-- **Model Architecture**: Employs EfficientNetB3 for robust feature extraction and classification.
-- **Data Preprocessing**: Images are resized and normalized to ensure consistent input.
-- **Training**: The model is trained to differentiate between cancerous and non-cancerous tissues, achieving high accuracy.
+The dataset is sourced from Kaggle and contains structured patient records in CSV format.
+It includes lifestyle habits and medical symptoms related to lung cancer.
+The target variable indicates whether lung cancer is present or not.
+Categorical features are encoded, and the dataset is balanced before training.
 
-## Results
+# Methodology
 
-The model demonstrates high accuracy in distinguishing between cancerous and non-cancerous lung tissue, highlighting its potential as a reliable diagnostic tool.
+The data is cleaned, encoded, and balanced using SMOTE to handle class imbalance.
+Important features are selected using Recursive Feature Elimination (RFE).
+Multiple models are trained, including Random Forest, SVM, and Gradient Boosting.
+A stacking ensemble with XGBoost and a deep neural network is used for final prediction.
 
-*Early detection saves lives. Harnessing the power of AI, we aim to revolutionize lung cancer diagnosis.*
+# Results
 
+The ensemble stacking model achieved high accuracy and strong classification performance.
+Neural network models showed good generalization with proper regularization.
+Evaluation metrics such as accuracy, precision, recall, and ROC-AUC were used.
+The results demonstrate the effectiveness of ensemble learning for lung cancer risk prediction.
